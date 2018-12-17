@@ -1,6 +1,6 @@
 <template>
 	<v-toolbar dense>
-		<router-link to="/"><v-icon>home</v-icon></router-link>
+		<v-icon @click="toHome">home</v-icon>
 	
 		<v-toolbar-title>{{barHeader}}</v-toolbar-title>
 	
@@ -12,9 +12,15 @@
 
 <script>
 import {BUS, session} from '@/main'
+import Router from '@/router/index'
 
 	export default {
 		name: "HeaderBar",
+		methods: {
+			toHome() {
+				Router.push('/');
+			}
+		},
 		data() {
 			return {
 				title: 'this is headerbar',
