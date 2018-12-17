@@ -1,0 +1,10083 @@
+[
+	{
+		"type": "instance",
+		"name": "justice",
+		"kind_type": [
+			"IDEAL_THING"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "standard",
+		"kind_type": [
+			"IDEAL_THING"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "requirement",
+		"kind_type": [
+			"IDEAL_THING"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "order_1",
+		"kind_type": [
+			"IDEAL_THING"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "sentence",
+		"kind_type": [
+			"PROPOSITION"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "content",
+				"values": []
+			},
+			{
+				"feature_type": "goal",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "author",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "knowledge",
+		"kind_type": [
+			"COGNITIVE_CONCEPTION"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "understanding_1",
+		"kind_type": [
+			"COGNITIVE_CONCEPTION"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "time",
+		"kind_type": [
+			"UBIQUITOUS_ABSTRACT_CONCEPTION"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "length",
+		"kind_type": [
+			"UBIQUITOUS_ABSTRACT_CONCEPTION"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "value",
+		"kind_type": [
+			"UBIQUITOUS_ABSTRACT_CONCEPTION"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "risk_1",
+		"kind_type": [
+			"UBIQUITOUS_ABSTRACT_CONCEPTION"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "order_2",
+		"kind_type": [
+			"UBIQUITOUS_ABSTRACT_CONCEPTION"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "life_1",
+		"kind_type": [
+			"UBIQUITOUS_ABSTRACT_CONCEPTION"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "one",
+		"kind_type": [
+			"NUMERICAL"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "inch",
+		"kind_type": [
+			"MEASURE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "second",
+		"kind_type": [
+			"MEASURE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "kindness",
+		"kind_type": [
+			"PERSONALITY"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "airworthiness",
+		"kind_type": [
+			"PHYSICAL_QUALITY"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "reliability",
+		"kind_type": [
+			"PHYSICAL_QUALITY"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "safety",
+		"kind_type": [
+			"PHYSICAL_QUALITY"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "unicorn",
+		"kind_type": [
+			"IMAGINARY"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "tree",
+		"kind_type": [
+			"PLANT"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "mountain",
+		"kind_type": [
+			"NATURAL_PLACE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "elephant",
+		"kind_type": [
+			"ANIMAL"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "behaviour",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "sex",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "'vertebrate\u2019",
+		"kind_type": [
+			"ANIMAL"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "behaviour",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "sex",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "bird",
+		"kind_type": [
+			"VERTEBRATE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "behaviour",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "sex",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "'bird\u2019",
+		"kind_type": [
+			"VERTEBRATE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "behaviour",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "sex",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "'fish\u2019",
+		"kind_type": [
+			"VERTEBRATE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "behaviour",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "sex",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "sparrow",
+		"kind_type": [
+			"BIRD"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "behaviour",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "sex",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "trout",
+		"kind_type": [
+			"FISH"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "behaviour",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "sex",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "bovine",
+		"kind_type": [
+			"MAMMAL"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "behaviour",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "sex",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "'bovine\u2019",
+		"kind_type": [
+			"MAMMAL"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "behaviour",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "sex",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "'primate\u2019",
+		"kind_type": [
+			"MAMMAL"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "behaviour",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "sex",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "moose",
+		"kind_type": [
+			"BOVINE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "behaviour",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "sex",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "'human\u2019",
+		"kind_type": [
+			"PRIMATE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "behaviour",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "sex",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "John",
+		"kind_type": [
+			"HUMAN"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "behaviour",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "sex",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "life_2",
+		"kind_type": [
+			"NATURAL_PROCESS"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "process_2",
+		"kind_type": [
+			"NATURAL_PROCESS"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "spore",
+		"kind_type": [
+			"LOWER_ORDER"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "river",
+		"kind_type": [
+			"FLOW"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "base_3",
+		"kind_type": [
+			"CHEMICAL"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "acid",
+		"kind_type": [
+			"CHEMICAL"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "oil",
+		"kind_type": [
+			"CHEMICAL"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "rock",
+		"kind_type": [
+			"MINERAL"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "wheat",
+		"kind_type": [
+			"CROP"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "building",
+		"kind_type": [
+			"SOCIAL_PLACE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "base_1",
+		"kind_type": [
+			"SOCIAL_PLACE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "steer",
+		"kind_type": [
+			"DOMESTIC_ANIMAL"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "'domestic_vertebrate\u2019",
+		"kind_type": [
+			"DOMESTIC_ANIMAL"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "'domestic_bird\u2019",
+		"kind_type": [
+			"DOMESTIC_VERTEBRATE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "chicken",
+		"kind_type": [
+			"DOMESTIC_BIRD"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "e. coli",
+		"kind_type": [
+			"CULTURE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "machine??",
+		"kind_type": [
+			"ARTIFACT"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "owner",
+				"values": []
+			},
+			{
+				"feature_type": "operation",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "construction",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "automobile ",
+		"kind_type": [
+			"VEHICLE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "\u2018ground_vehicle\u2019",
+		"kind_type": [
+			"VEHICLE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "\u2018air_vehicle\u2019",
+		"kind_type": [
+			"VEHICLE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "ship",
+		"kind_type": [
+			"VEHICLE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "football",
+		"kind_type": [
+			"MOVING_OBJECT"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "bike",
+		"kind_type": [
+			"GROUND_VEHICLE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "car",
+		"kind_type": [
+			"GROUND_VEHICLE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "aircraft",
+		"kind_type": [
+			"AIR_VEHICLE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "hand",
+		"kind_type": [
+			"NATURALPART"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "ecology",
+		"kind_type": [
+			"NATURALSYSTEM"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "bottom",
+		"kind_type": [
+			"PART"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "base_2",
+		"kind_type": [
+			"PART"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "top",
+		"kind_type": [
+			"PART"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "part",
+		"kind_type": [
+			"PART"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "'kitchen_tool'",
+		"kind_type": [
+			"MANMADEOBJ"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "'document'",
+		"kind_type": [
+			"MANMADEOBJ"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "'fuel'",
+		"kind_type": [
+			"MANMADEOBJ"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "engine",
+		"kind_type": [
+			"MANMADEPART"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "component",
+		"kind_type": [
+			"MANMADEPART"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "system",
+		"kind_type": [
+			"MANMADESYSTEM"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "knife",
+		"kind_type": [
+			"KITCHEN_TOOL"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "petrol",
+		"kind_type": [
+			"FUEL"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "gasoline",
+		"kind_type": [
+			"FUEL"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "diesel",
+		"kind_type": [
+			"FUEL"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "cng",
+		"kind_type": [
+			"FUEL"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "pdf",
+		"kind_type": [
+			"DOCUMENT"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "report",
+		"kind_type": [
+			"DOCUMENT"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "thought",
+		"kind_type": [
+			"COGNITIVE_ACTIVITY"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "hurricane",
+		"kind_type": [
+			"ACT_OF_GOD"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "heat",
+		"kind_type": [
+			"NATURAL_STATE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "release",
+		"kind_type": [
+			"SOCIAL_EVENT"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "party",
+		"kind_type": [
+			"PEOPLE_EVENT"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "meeting",
+		"kind_type": [
+			"PEOPLE_EVENT"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "order_4",
+		"kind_type": [
+			"COMMUNICATIVE_EVENT"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "instruction",
+		"kind_type": [
+			"COMMUNICATIVE_EVENT"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "service",
+		"kind_type": [
+			"SOCIAL_PROCESS"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "repair",
+		"kind_type": [
+			"SOCIAL_PROCESS"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "maintenance'",
+		"kind_type": [
+			"SOCIAL_PROCESS"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "transportation'",
+		"kind_type": [
+			"SOCIAL_PROCESS"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "process_1",
+		"kind_type": [
+			"SOCIAL_PROCESS"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "task",
+		"kind_type": [
+			"SOCIAL_PROCESS"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "check",
+		"kind_type": [
+			"SOCIAL_PROCESS"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "replacement",
+		"kind_type": [
+			"SOCIAL_PROCESS"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "engineering",
+		"kind_type": [
+			"SOCIAL_PROCESS"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "inspection",
+		"kind_type": [
+			"SOCIAL_PROCESS"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "rcm",
+		"kind_type": [
+			"maintenance"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "aviation_2",
+		"kind_type": [
+			"transportation"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "condition_1",
+		"kind_type": [
+			"PHYSICAL_STATE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "failure",
+		"kind_type": [
+			"POST_GOAL_EVENT_RESULT"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "success",
+		"kind_type": [
+			"POST_GOAL_EVENT_RESULT"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "agreement",
+		"kind_type": [
+			"MUTUAL_STATE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "understanding_2",
+		"kind_type": [
+			"MUTUAL_STATE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "disagreement",
+		"kind_type": [
+			"MUTUAL_STATE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "order_3",
+		"kind_type": [
+			"MUTUAL_STATE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "love",
+		"kind_type": [
+			"EMOTIONAL_STATE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "condition_2",
+		"kind_type": [
+			"EMOTIONAL_STATE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "man",
+		"kind_type": [
+			"PERSON"
+		],
+		"feature_values": [
+			{
+				"feature_type": "relation",
+				"values": []
+			},
+			{
+				"feature_type": "status",
+				"values": []
+			},
+			{
+				"feature_type": "name",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "goal",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "internal_trait",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "woman",
+		"kind_type": [
+			"PERSON"
+		],
+		"feature_values": [
+			{
+				"feature_type": "relation",
+				"values": []
+			},
+			{
+				"feature_type": "status",
+				"values": []
+			},
+			{
+				"feature_type": "name",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "goal",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "internal_trait",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "nurse",
+		"kind_type": [
+			"ROLE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "goal",
+				"values": []
+			},
+			{
+				"feature_type": "internal_trait",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "relation, income",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "secretary",
+		"kind_type": [
+			"ROLE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "goal",
+				"values": []
+			},
+			{
+				"feature_type": "internal_trait",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "relation, income",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "law",
+		"kind_type": [
+			"IDEAL_GROUP"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "discourse",
+		"kind_type": [
+			"DISCOURSE"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "host",
+		"kind_type": [
+			"IRREAL_GROUP"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "forest",
+		"kind_type": [
+			"FLORA"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "range",
+		"kind_type": [
+			"REGION"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "pod",
+		"kind_type": [
+			"FAUNA"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "mold",
+		"kind_type": [
+			"LOWER_ORDER_GROUP"
+		],
+		"feature_values": [
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "river_system",
+		"kind_type": [
+			"FLOW_GROUP"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "gold",
+		"kind_type": [
+			"STUFF"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "shopping mall",
+		"kind_type": [
+			"COMPLEX"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "toolbox",
+		"kind_type": [
+			"EQUIPMENT"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "drove",
+		"kind_type": [
+			"HERD"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "pencillin",
+		"kind_type": [
+			"CULTURE_GROUP"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "habitat",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "propagation",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "physiology",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "age",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "armada",
+		"kind_type": [
+			"FLEET"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "assemblage",
+		"kind_type": [
+			"COLLECTION"
+		],
+		"feature_values": [
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "taste",
+				"values": []
+			},
+			{
+				"feature_type": "color",
+				"values": []
+			},
+			{
+				"feature_type": "size",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "shape",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			},
+			{
+				"feature_type": "texture",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "odor",
+				"values": []
+			},
+			{
+				"feature_type": "speed",
+				"values": []
+			},
+			{
+				"feature_type": "material",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "moved_by",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "strength",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "state",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "location",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "monsoon",
+		"kind_type": [
+			"ACT_OF_GOD_GROUP"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "winter ",
+		"kind_type": [
+			"NATURAL_STATE_GROUP"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "summer",
+		"kind_type": [
+			"NATURAL_STATE_GROUP"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "renaissance",
+		"kind_type": [
+			"HISTORICAL_EPOCH"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "program",
+		"kind_type": [
+			"GOAL_ORIENTED_ACTIVITY"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "strategy",
+		"kind_type": [
+			"GOAL_ORIENTED_ACTIVITY"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "plan",
+		"kind_type": [
+			"GOAL_ORIENTED_ACTIVITY"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "crowd",
+		"kind_type": [
+			"BODY"
+		],
+		"feature_values": [
+			{
+				"feature_type": "internal_trait",
+				"values": []
+			},
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "goal",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "clinic",
+		"kind_type": [
+			"INSTITUTION"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "goal",
+				"values": []
+			},
+			{
+				"feature_type": "structure",
+				"values": []
+			},
+			{
+				"feature_type": "internal_trait",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "aviation_1",
+		"kind_type": [
+			"INSTITUTION"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "goal",
+				"values": []
+			},
+			{
+				"feature_type": "structure",
+				"values": []
+			},
+			{
+				"feature_type": "internal_trait",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "mro",
+		"kind_type": [
+			"INSTITUTION"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "goal",
+				"values": []
+			},
+			{
+				"feature_type": "structure",
+				"values": []
+			},
+			{
+				"feature_type": "internal_trait",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "department",
+		"kind_type": [
+			"INSTITUTION"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "goal",
+				"values": []
+			},
+			{
+				"feature_type": "structure",
+				"values": []
+			},
+			{
+				"feature_type": "internal_trait",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "'company'",
+		"kind_type": [
+			"INSTITUTION"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "goal",
+				"values": []
+			},
+			{
+				"feature_type": "structure",
+				"values": []
+			},
+			{
+				"feature_type": "internal_trait",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "organization",
+		"kind_type": [
+			"INSTITUTION"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "goal",
+				"values": []
+			},
+			{
+				"feature_type": "structure",
+				"values": []
+			},
+			{
+				"feature_type": "internal_trait",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "staff",
+		"kind_type": [
+			"SOCIAL_PEOPLE_GROUP"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "goal",
+				"values": []
+			},
+			{
+				"feature_type": "internal_trait",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "Boeing",
+		"kind_type": [
+			"COMPANY"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "goal",
+				"values": []
+			},
+			{
+				"feature_type": "structure",
+				"values": []
+			},
+			{
+				"feature_type": "internal_trait",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	},
+	{
+		"type": "instance",
+		"name": "marriage",
+		"kind_type": [
+			"SOCIAL_STATE_GROUP"
+		],
+		"feature_values": [
+			{
+				"feature_type": "prototype",
+				"values": []
+			},
+			{
+				"feature_type": "part_of",
+				"values": []
+			},
+			{
+				"feature_type": "source",
+				"values": []
+			},
+			{
+				"feature_type": "associated_with",
+				"values": []
+			},
+			{
+				"feature_type": "function",
+				"values": []
+			},
+			{
+				"feature_type": "processing",
+				"values": []
+			},
+			{
+				"feature_type": "requirement",
+				"values": []
+			},
+			{
+				"feature_type": "exp",
+				"values": []
+			},
+			{
+				"feature_type": "haspart",
+				"values": []
+			},
+			{
+				"feature_type": "inext",
+				"values": []
+			}
+		]
+	}
+]

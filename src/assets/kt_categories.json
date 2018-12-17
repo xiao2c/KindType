@@ -1,0 +1,1042 @@
+[
+	{
+		"type": "category",
+		"name": "ENTITY",
+		"description": "The root node",
+		"children": [
+			[
+				"ABSTRACT",
+				"REAL"
+			],
+			[
+				"INDIVIDUAL",
+				"COLLECTIVE"
+			]
+		],
+		"feature_types": [
+			{
+				"feature_name": "inext",
+				"example": "",
+				"explain": "In extension of"
+			},
+			{
+				"feature_name": "haspart",
+				"example": "",
+				"explain": "Has a part"
+			},
+			{
+				"feature_name": "part_of",
+				"example": "",
+				"explain": "Is part of"
+			},
+			{
+				"feature_name": "exp",
+				"example": "",
+				"explain": "Experienced as"
+			},
+			{
+				"feature_name": "prototype",
+				"example": "",
+				"explain": "Prototype"
+			},
+			{
+				"feature_name": "source",
+				"example": "",
+				"explain": "Source"
+			},
+			{
+				"feature_name": "associated_with",
+				"example": "",
+				"explain": "Associated with"
+			}
+		],
+		"example_instances": [
+			"woman",
+			"law",
+			"football",
+			"sentence",
+			"forest",
+			"aircraft",
+			"tiger",
+			"nurse"
+		]
+	},
+	{
+		"type": "category",
+		"name": "ABSTRACT",
+		"description": "Something that doesn't exist physically, nor is an event",
+		"children": [
+			[
+				"IDEAL",
+				"PROPOSITIONAL",
+				"QUANTITY",
+				"IRREAL",
+				"QUALITY"
+			]
+		],
+		"feature_types": [],
+		"example_instances": [
+			"law",
+			"sentence",
+			"safety",
+			"inch",
+			"justice",
+			"order"
+		]
+	},
+	{
+		"type": "category",
+		"name": "REAL",
+		"description": "A real object or event.",
+		"children": [
+			[
+				"PHYSICAL",
+				"TEMPORAL",
+				"SENTIENT"
+			],
+			[
+				"NATURAL",
+				"SOCIAL"
+			]
+		],
+		"feature_types": [],
+		"example_instances": [
+			"woman",
+			"football",
+			"forest",
+			"aircraft",
+			"tiger",
+			"nurse",
+			"program"
+		]
+	},
+	{
+		"type": "category",
+		"name": "INDIVIDUAL",
+		"description": "An entity that occurs as a singular or is not compositional.",
+		"children": [],
+		"feature_types": [],
+		"example_instances": [
+			"woman",
+			"football",
+			"cake",
+			"aircraft",
+			"tiger"
+		]
+	},
+	{
+		"type": "category",
+		"name": "IDEAL",
+		"description": "An abstract entity that represents a desired state. For example, 'order' in 'law and order' ",
+		"children": [],
+		"feature_types": [],
+		"example_instances": [
+			"law",
+			"justice",
+			"standard",
+			"peace",
+			"order"
+		]
+	},
+	{
+		"type": "category",
+		"name": "PROPOSITIONAL",
+		"description": "A statement or an abstract component of speech- such as sentence",
+		"children": [],
+		"feature_types": [],
+		"example_instances": [
+			"discourse",
+			"sentence"
+		]
+	},
+	{
+		"type": "category",
+		"name": "QUANTITY",
+		"description": "An entity that can be either measured, is numerical or is related to measurement",
+		"children": [],
+		"feature_types": [],
+		"example_instances": [
+			"second",
+			"two",
+			"time",
+			"knowledge",
+			"metre"
+		]
+	},
+	{
+		"type": "category",
+		"name": "IRREAL",
+		"description": "An entity that doesn't exist in the world/imaginary/mythological",
+		"children": [],
+		"feature_types": [],
+		"example_instances": [
+			"unicorn",
+			"centaur"
+		]
+	},
+	{
+		"type": "category",
+		"name": "QUALITY",
+		"description": "An entity relating to an observed quality such as kindness",
+		"children": [],
+		"feature_types": [],
+		"example_instances": [
+			"reliability",
+			"kindness",
+			"safety",
+			"airworthiness"
+		]
+	},
+	{
+		"type": "category",
+		"name": "PHYSICAL",
+		"description": "A physical object",
+		"children": [
+			[
+				"STATIONARY",
+				"NONSTATIONARY"
+			],
+			[
+				"LIVING",
+				"NONLIVING"
+			]
+		],
+		"feature_types": [
+			{
+				"feature_name": "shape",
+				"example": "",
+				"explain": "The general shape of an object (mostly geometrical shapes, but exceptions may exist"
+			},
+			{
+				"feature_name": "size",
+				"example": "",
+				"explain": "The size of an object (use vehicles or buildings for comparison (ex: elephant-> big-> truck sized)"
+			},
+			{
+				"feature_name": "color",
+				"example": "",
+				"explain": "The common color of an object"
+			},
+			{
+				"feature_name": "material",
+				"example": "",
+				"explain": "The material property (steel, paper, fibers, biological tissue, etc)"
+			},
+			{
+				"feature_name": "texture",
+				"example": "",
+				"explain": "The texture of an object (smooth, rough, etc)"
+			},
+			{
+				"feature_name": "odor",
+				"example": "",
+				"explain": "The common odor associated with object"
+			},
+			{
+				"feature_name": "taste",
+				"example": "",
+				"explain": "The common taste associated with object"
+			},
+			{
+				"feature_name": "location",
+				"example": "",
+				"explain": "The common location of an object"
+			},
+			{
+				"feature_name": "strength",
+				"example": "",
+				"explain": "Strength of the object"
+			},
+			{
+				"feature_name": "state",
+				"example": "",
+				"explain": "The physical state of an object (gas, liquid, solid...)"
+			}
+		],
+		"example_instances": [
+			"rock",
+			"automobile",
+			"football",
+			"engine",
+			"bird",
+			"diamond",
+			"gasoline"
+		]
+	},
+	{
+		"type": "category",
+		"name": "SENTIENT",
+		"description": "A human type with specific traits and goals.",
+		"children": [],
+		"feature_types": [
+			{
+				"feature_name": "internal_trait",
+				"example": "",
+				"explain": "The distinctive trait of a particular sentient. For example, lawyers are commonly quick-thinking, etc"
+			},
+			{
+				"feature_name": "goal",
+				"example": "",
+				"explain": "The goal of a sentient. For example, lawyers have the goal to win cases for clients."
+			}
+		],
+		"example_instances": [
+			"woman",
+			"lawyer",
+			"secretary",
+			"clinic",
+			"Boeing",
+			"crowd",
+			"nurse"
+		]
+	},
+	{
+		"type": "category",
+		"name": "NATURAL",
+		"description": "A naturally occuring entity (not created/developed by human)",
+		"children": [],
+		"feature_types": [],
+		"example_instances": [
+			"woman",
+			"rock",
+			"heat",
+			"gold",
+			"bird",
+			"summer",
+			"diamond"
+		]
+	},
+	{
+		"type": "category",
+		"name": "SOCIAL",
+		"description": "An entity created by humans or arising from society.",
+		"children": [],
+		"feature_types": [
+			{
+				"feature_name": "function",
+				"example": "",
+				"explain": "Either what an object is used for, or what a person/sentient does"
+			},
+			{
+				"feature_name": "requirement",
+				"example": "",
+				"explain": "The prerequisites or required tools or objects to function"
+			},
+			{
+				"feature_name": "processing",
+				"example": "",
+				"explain": "The manner in which a SOCIAL entity is processed/created/comes to be "
+			}
+		],
+		"example_instances": [
+			"laywer",
+			"secretary",
+			"clinic",
+			"marriage",
+			"engine",
+			"football"
+		]
+	},
+	{
+		"type": "category",
+		"name": "STATIONARY",
+		"example_instances": [
+			"building",
+			"bottle",
+			"tree",
+			"forest",
+			"mountain",
+			"toolbox"
+		],
+		"description": "A physical entity that does not move.",
+		"children": [],
+		"feature_types": []
+	},
+	{
+		"type": "category",
+		"name": "LIVING",
+		"example_instances": [
+			"tiger",
+			"amoeba",
+			"human",
+			"sunflower"
+		],
+		"description": "A biologically living entity.",
+		"children": [],
+		"feature_types": [
+			{
+				"feature_name": "propagation",
+				"example": "",
+				"explain": "The source of a living object- example mammals are mainly through 'live births'"
+			},
+			{
+				"feature_name": "habitat",
+				"example": "",
+				"explain": "Where the living entity is commonly found"
+			},
+			{
+				"feature_name": "physiology",
+				"example": "",
+				"explain": "What the living entity is composed of/body form "
+			},
+			{
+				"feature_name": "age",
+				"example": "",
+				"explain": "The age of a living entity"
+			}
+		]
+	},
+	{
+		"type": "category",
+		"name": "NONLIVING",
+		"description": "A non-living entity.",
+		"children": [],
+		"feature_types": [],
+		"example_instances": [
+			"rock",
+			"oil",
+			"river",
+			"acid",
+			"toolbox",
+			"report"
+		]
+	},
+	{
+		"type": "category",
+		"name": "STATIONARY",
+		"example_instances": [
+			"building",
+			"tree"
+		],
+		"children": [],
+		"feature_types": [
+			{}
+		],
+		"description": "Describes things that are normally immobile, attached to the earth and moved only at great effort."
+	},
+	{
+		"type": "category",
+		"name": "NONSTATIONARY",
+		"example_instances": [],
+		"children": [
+			[
+				"SELFMOVING",
+				"NONSELFMOVING"
+			]
+		],
+		"feature_types": [
+			{}
+		],
+		"description": "Describes things that are able to move or be moved."
+	},
+	{
+		"type": "category",
+		"name": "SELFMOVING",
+		"example_instances": [
+			"dog",
+			"truck"
+		],
+		"children": [],
+		"feature_types": [
+			{}
+		],
+		"description": "Describes things that are normally in motion or designed for motion, in some cases with no apparent initial source."
+	},
+	{
+		"type": "category",
+		"name": "NONSELFMOVING",
+		"example_instances": [
+			"brick",
+			"rock"
+		],
+		"children": [],
+		"feature_types": [
+			{}
+		],
+		"description": "Describes things that are normally immobile but can be moved with slight effort."
+	},
+	{
+		"type": "category",
+		"name": "COLLECTIVE",
+		"example_instances": [
+			"dog",
+			"truck"
+		],
+		"children": [
+			[
+				"MASS",
+				"SET",
+				"STRUCTURE"
+			]
+		],
+		"feature_types": [
+			{}
+		],
+		"description": "Describes a group of entities as a whole."
+	},
+	{
+		"type": "category",
+		"name": "MASS",
+		"example_instances": [
+			"water",
+			"sand"
+		],
+		"children": [],
+		"feature_types": [
+			{}
+		],
+		"description": "Even the smallest amount is of the same material nature as the collective term (a drop of water is still water), and whose members are referred to only in terms of measurable units."
+	},
+	{
+		"type": "category",
+		"name": "SET",
+		"example_instances": [
+			"herd"
+		],
+		"children": [],
+		"feature_types": [
+			{}
+		],
+		"description": "Each member of the set is the same kind as every other member."
+	},
+	{
+		"type": "category",
+		"name": "STRUCTURE",
+		"example_instances": [
+			"company"
+		],
+		"children": [],
+		"feature_types": [
+			{
+				"feature_name": "hierarchy",
+				"example": "management,staff",
+				"explain": "describes the roles inside the structure"
+			},
+			{
+				"feature_name": "roles",
+				"example": "managers are in charge of managing staff",
+				"explain": "explains the duty and responsibility of the role"
+			}
+		],
+		"description": "Each member is of the same kind type as every other member; members have specified relations with one another."
+	},
+	{
+		"type": "category",
+		"name": "TEMPORAL",
+		"example_instances": [
+			"party",
+			"hurricane",
+			"winter"
+		],
+		"children": [
+			[
+				"RELATIONAL",
+				"NONRELATIONAL"
+			]
+		],
+		"feature_types": [
+			{}
+		],
+		"description": "There is a time aspect to the entity in question."
+	},
+	{
+		"type": "category",
+		"name": "RELATIONAL",
+		"example_instances": [
+			""
+		],
+		"children": [
+			[
+				"EVENT",
+				"STATIVE"
+			],
+			[
+				"MENTAL",
+				"EMOTIONAL",
+				"NONMENTAL"
+			]
+		],
+		"feature_types": [
+			{
+				"feature_name": "location",
+				"example": "Times Square",
+				"explain": "describes where it occured."
+			},
+			{
+				"feature_name": "time",
+				"example": "2100 hours",
+				"explain": "describes when it happened."
+			},
+			{
+				"feature_name": "cause",
+				"example": "The man fell down because he tripped on a rock",
+				"explain": "describes the cause of the event"
+			},
+			{
+				"feature_name": "enablement",
+				"example": "The forest fires were caused by dense underbrush",
+				"explain": "describes what allowed an event to happen"
+			},
+			{
+				"feature_name": "consequence",
+				"example": "Thus 1600 people perished in the fires",
+				"explain": "describes the consequences of the event"
+			},
+			{
+				"feature_name": "sequel",
+				"example": "Subsequently more efforts were channeled into raising awareness for forest fires",
+				"explain": "describes subsequent events following the inital event"
+			}
+		],
+		"description": "Verbs are attached here."
+	},
+	{
+		"type": "category",
+		"name": "NONRELATIONAL",
+		"children": [],
+		"feature_types": [
+			{}
+		],
+		"description": "Temporal nouns (nouns that relate to time i.e, seasons) go here."
+	},
+	{
+		"type": "category",
+		"name": "STATIVE",
+		"children": [],
+		"feature_types": [
+			{
+				"feature_name": "location",
+				"example": "Times Square",
+				"explain": "describes where it occured."
+			},
+			{
+				"feature_name": "time",
+				"example": "2100 hours",
+				"explain": "describes when it happened."
+			},
+			{
+				"feature_name": "cause",
+				"example": "The man fell down because he tripped on a rock",
+				"explain": "describes the cause of the event"
+			},
+			{
+				"feature_name": "enablement",
+				"example": "The forest fires were caused by dense underbrush",
+				"explain": "describes what allowed an event to happen"
+			},
+			{
+				"feature_name": "consequence",
+				"example": "Thus 1600 people perished in the fires",
+				"explain": "describes the consequences of the event"
+			},
+			{
+				"feature_name": "sequel",
+				"example": "Subsequently more efforts were channeled into raising awareness for forest fires",
+				"explain": "describes subsequent events following the inital event"
+			}
+		],
+		"description": "<Not Sure>"
+	},
+	{
+		"type": "category",
+		"name": "MENTAL",
+		"children": [],
+		"feature_types": [
+			{
+				"feature_name": "location",
+				"example": "Times Square",
+				"explain": "describes where it occured."
+			},
+			{
+				"feature_name": "time",
+				"example": "2100 hours",
+				"explain": "describes when it happened."
+			},
+			{
+				"feature_name": "cause",
+				"example": "The man fell down because he tripped on a rock",
+				"explain": "describes the cause of the event"
+			},
+			{
+				"feature_name": "enablement",
+				"example": "The forest fires were caused by dense underbrush",
+				"explain": "describes what allowed an event to happen"
+			},
+			{
+				"feature_name": "consequence",
+				"example": "Thus 1600 people perished in the fires",
+				"explain": "describes the consequences of the event"
+			},
+			{
+				"feature_name": "sequel",
+				"example": "Subsequently more efforts were channeled into raising awareness for forest fires",
+				"explain": "describes subsequent events following the inital event"
+			},
+			{
+				"feature_name": "manner",
+				"example": "It happened in a slow and uneventful manner",
+				"explain": "describes how the event unfolded."
+			}
+		],
+		"description": "<Not Sure>"
+	},
+	{
+		"type": "category",
+		"name": "EMOTIONAL",
+		"children": [],
+		"feature_types": [
+			{
+				"feature_name": "location",
+				"example": "Times Square",
+				"explain": "describes where it occured."
+			},
+			{
+				"feature_name": "time",
+				"example": "2100 hours",
+				"explain": "describes when it happened."
+			},
+			{
+				"feature_name": "cause",
+				"example": "The man fell down because he tripped on a rock",
+				"explain": "describes the cause of the event"
+			},
+			{
+				"feature_name": "enablement",
+				"example": "The forest fires were caused by dense underbrush",
+				"explain": "describes what allowed an event to happen"
+			},
+			{
+				"feature_name": "consequence",
+				"example": "Thus 1600 people perished in the fires",
+				"explain": "describes the consequences of the event"
+			},
+			{
+				"feature_name": "sequel",
+				"example": "Subsequently more efforts were channeled into raising awareness for forest fires",
+				"explain": "describes subsequent events following the inital event"
+			},
+			{
+				"feature_name": "manner",
+				"example": "It happened in a slow and uneventful manner",
+				"explain": "describes how the event unfolded."
+			}
+		],
+		"description": "<Not Sure>"
+	},
+	{
+		"type": "category",
+		"name": "NONMENTAL",
+		"children": [],
+		"feature_types": [
+			{
+				"feature_name": "location",
+				"example": "Times Square",
+				"explain": "describes where it occured."
+			},
+			{
+				"feature_name": "time",
+				"example": "2100 hours",
+				"explain": "describes when it happened."
+			},
+			{
+				"feature_name": "cause",
+				"example": "The man fell down because he tripped on a rock",
+				"explain": "describes the cause of the event"
+			},
+			{
+				"feature_name": "enablement",
+				"example": "The forest fires were caused by dense underbrush",
+				"explain": "describes what allowed an event to happen"
+			},
+			{
+				"feature_name": "consequence",
+				"example": "Thus 1600 people perished in the fires",
+				"explain": "describes the consequences of the event"
+			},
+			{
+				"feature_name": "sequel",
+				"example": "Subsequently more efforts were channeled into raising awareness for forest fires",
+				"explain": "describes subsequent events following the inital event"
+			},
+			{
+				"feature_name": "manner",
+				"example": "It happened in a slow and uneventful manner",
+				"explain": "describes how the event unfolded."
+			}
+		],
+		"description": "<Not Sure>"
+	},
+	{
+		"type": "category",
+		"name": "EVENT",
+		"children": [
+			[
+				"GOAL",
+				"NONGOAL"
+			],
+			[
+				"ACTIVITY",
+				"ACCOMPLISHMENT",
+				"ACHIEVEMENT"
+			]
+		],
+		"feature_types": [
+			{
+				"feature_name": "location",
+				"example": "Times Square",
+				"explain": "describes where it occured."
+			},
+			{
+				"feature_name": "time",
+				"example": "2100 hours",
+				"explain": "describes when it happened."
+			},
+			{
+				"feature_name": "cause",
+				"example": "The man fell down because he tripped on a rock",
+				"explain": "describes the cause of the event"
+			},
+			{
+				"feature_name": "enablement",
+				"example": "The forest fires were caused by dense underbrush",
+				"explain": "describes what allowed an event to happen"
+			},
+			{
+				"feature_name": "consequence",
+				"example": "Thus 1600 people perished in the fires",
+				"explain": "describes the consequences of the event"
+			},
+			{
+				"feature_name": "sequel",
+				"example": "Subsequently more efforts were channeled into raising awareness for forest fires",
+				"explain": "describes subsequent events following the inital event"
+			},
+			{
+				"feature_name": "manner",
+				"example": "It happened in a slow and uneventful manner",
+				"explain": "describes how the event unfolded."
+			}
+		],
+		"description": "<Not Sure>"
+	},
+	{
+		"type": "category",
+		"name": "GOAL",
+		"children": [],
+		"feature_types": [
+			{
+				"feature_name": "location",
+				"example": "Times Square",
+				"explain": "describes where it occured."
+			},
+			{
+				"feature_name": "time",
+				"example": "2100 hours",
+				"explain": "describes when it happened."
+			},
+			{
+				"feature_name": "cause",
+				"example": "The man fell down because he tripped on a rock",
+				"explain": "describes the cause of the event"
+			},
+			{
+				"feature_name": "enablement",
+				"example": "The forest fires were caused by dense underbrush",
+				"explain": "describes what allowed an event to happen"
+			},
+			{
+				"feature_name": "consequence",
+				"example": "Thus 1600 people perished in the fires",
+				"explain": "describes the consequences of the event"
+			},
+			{
+				"feature_name": "sequel",
+				"example": "Subsequently more efforts were channeled into raising awareness for forest fires",
+				"explain": "describes subsequent events following the inital event"
+			},
+			{
+				"feature_name": "manner",
+				"example": "It happened in a slow and uneventful manner",
+				"explain": "describes how the event unfolded."
+			}
+		],
+		"description": "<Not Sure>"
+	},
+	{
+		"type": "category",
+		"name": "NONGOAL",
+		"children": [],
+		"feature_types": [
+			{
+				"feature_name": "location",
+				"example": "Times Square",
+				"explain": "describes where it occured."
+			},
+			{
+				"feature_name": "time",
+				"example": "2100 hours",
+				"explain": "describes when it happened."
+			},
+			{
+				"feature_name": "cause",
+				"example": "The man fell down because he tripped on a rock",
+				"explain": "describes the cause of the event"
+			},
+			{
+				"feature_name": "enablement",
+				"example": "The forest fires were caused by dense underbrush",
+				"explain": "describes what allowed an event to happen"
+			},
+			{
+				"feature_name": "consequence",
+				"example": "Thus 1600 people perished in the fires",
+				"explain": "describes the consequences of the event"
+			},
+			{
+				"feature_name": "sequel",
+				"example": "Subsequently more efforts were channeled into raising awareness for forest fires",
+				"explain": "describes subsequent events following the inital event"
+			},
+			{
+				"feature_name": "manner",
+				"example": "It happened in a slow and uneventful manner",
+				"explain": "describes how the event unfolded."
+			},
+			{
+				"feature_name": "purpose",
+				"example": "The objectives of this summit is to negotiate a mutually beneficial trade agreement between China and USA",
+				"explain": "describes the purpose of this event."
+			}
+		],
+		"description": "<Not Sure>"
+	},
+	{
+		"type": "category",
+		"name": "ACTIVITY",
+		"children": [],
+		"feature_types": [
+			{
+				"feature_name": "location",
+				"example": "Times Square",
+				"explain": "describes where it occured."
+			},
+			{
+				"feature_name": "time",
+				"example": "2100 hours",
+				"explain": "describes when it happened."
+			},
+			{
+				"feature_name": "cause",
+				"example": "The man fell down because he tripped on a rock",
+				"explain": "describes the cause of the event"
+			},
+			{
+				"feature_name": "enablement",
+				"example": "The forest fires were caused by dense underbrush",
+				"explain": "describes what allowed an event to happen"
+			},
+			{
+				"feature_name": "consequence",
+				"example": "Thus 1600 people perished in the fires",
+				"explain": "describes the consequences of the event"
+			},
+			{
+				"feature_name": "sequel",
+				"example": "Subsequently more efforts were channeled into raising awareness for forest fires",
+				"explain": "describes subsequent events following the inital event"
+			},
+			{
+				"feature_name": "manner",
+				"example": "It happened in a slow and uneventful manner",
+				"explain": "describes how the event unfolded."
+			}
+		],
+		"description": "<Not Sure>"
+	},
+	{
+		"type": "category",
+		"name": "ACCOMPLISHMENT",
+		"children": [],
+		"feature_types": [
+			{
+				"feature_name": "location",
+				"example": "Times Square",
+				"explain": "describes where it occured."
+			},
+			{
+				"feature_name": "time",
+				"example": "2100 hours",
+				"explain": "describes when it happened."
+			},
+			{
+				"feature_name": "cause",
+				"example": "The man fell down because he tripped on a rock",
+				"explain": "describes the cause of the event"
+			},
+			{
+				"feature_name": "enablement",
+				"example": "The forest fires were caused by dense underbrush",
+				"explain": "describes what allowed an event to happen"
+			},
+			{
+				"feature_name": "consequence",
+				"example": "Thus 1600 people perished in the fires",
+				"explain": "describes the consequences of the event"
+			},
+			{
+				"feature_name": "sequel",
+				"example": "Subsequently more efforts were channeled into raising awareness for forest fires",
+				"explain": "describes subsequent events following the inital event"
+			},
+			{
+				"feature_name": "manner",
+				"example": "It happened in a slow and uneventful manner",
+				"explain": "describes how the event unfolded."
+			}
+		],
+		"description": "<Not Sure>"
+	},
+	{
+		"type": "category",
+		"name": "ACHIEVEMENT",
+		"children": [],
+		"feature_types": [
+			{
+				"feature_name": "location",
+				"example": "Times Square",
+				"explain": "describes where it occured."
+			},
+			{
+				"feature_name": "time",
+				"example": "2100 hours",
+				"explain": "describes when it happened."
+			},
+			{
+				"feature_name": "cause",
+				"example": "The man fell down because he tripped on a rock",
+				"explain": "describes the cause of the event"
+			},
+			{
+				"feature_name": "enablement",
+				"example": "The forest fires were caused by dense underbrush",
+				"explain": "describes what allowed an event to happen"
+			},
+			{
+				"feature_name": "consequence",
+				"example": "Thus 1600 people perished in the fires",
+				"explain": "describes the consequences of the event"
+			},
+			{
+				"feature_name": "sequel",
+				"example": "Subsequently more efforts were channeled into raising awareness for forest fires",
+				"explain": "describes subsequent events following the inital event"
+			},
+			{
+				"feature_name": "manner",
+				"example": "It happened in a slow and uneventful manner",
+				"explain": "describes how the event unfolded."
+			}
+		],
+		"description": "<Not Sure>"
+	}
+]
