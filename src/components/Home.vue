@@ -1,7 +1,6 @@
 <template>
 <v-card>
-    <v-card-title>
-        Select An Instance to Start
+    <v-card-title>Select An Instance to Start
         <v-spacer></v-spacer>
         <v-text-field v-model="search" append-icon="search" label="Search" single-line hide-details></v-text-field>
     </v-card-title>
@@ -9,18 +8,16 @@
         <template slot="items" slot-scope="props">
             <tr :active="props.selected" @click="props.selected = !props.selected">
                 <td>
-                    <v-checkbox :input-value="props.selected" primary hide-details></v-checkbox>
+                    <v-checkbox primary hide-details v-model="selectedIns" :value="props.item.instance"></v-checkbox>
                 </td>
                 <td>{{ props.item.instance }}</td>
             </tr>
         </template>
-        <v-alert slot="no-results" :value="true" color="error" icon="warning">
-            Your search for "{{ search }}" found no results.
-        </v-alert>
+        <v-alert slot="no-results" :value="true" color="error" icon="warning">Your search for "{{ search }}" found no results.</v-alert>
     </v-data-table>
     <v-toolbar dense>
-        <v-spacer></v-spacer>
-        <v-btn icon to="/SelectCat">
+        <v-spacer></v-spacer>{{ selectedIns }}
+        <v-btn icon @click="goNext">
             <v-icon>send</v-icon>
         </v-btn>
     </v-toolbar>
@@ -31,72 +28,76 @@
 import {
     BUS
 } from "@/main";
+import axios from "axios";
+import Router from '@/router/index';
 
 export default {
     name: "Home",
+    methods: {
+        goNext() {
+            BUS.session.currentInstance = this.selectedIns;
+            Router.push("/SelectCat");
+        }
+    },
     data() {
         return {
             pagination: {
-                sortBy: 'instance'
+                sortBy: "instance"
             },
-            selected: [],
+            selectedIns: "-",
             search: "",
             headers: [{
-                    text: 'Select',
+                    text: "Select",
                     sortable: false
                 },
                 {
-                    text: 'Instance',
-                    align: 'center',
-                    value: 'instance'
+                    text: "Instance",
+                    align: "center",
+                    value: "instance"
                 }
             ],
-            instances: [{
-                    value: false,
-                    instance: 'Frozen Yogurt'
-                },
-                {
-                    value: false,
-                    instance: 'Ice cream sandwich'
-                },
-                {
-                    value: false,
-                    instance: 'Eclair'
-                },
-                {
-                    value: false,
-                    instance: 'Cupcake'
-                },
-                {
-                    value: false,
-                    instance: 'Gingerbread'
-                },
-                {
-                    value: false,
-                    instance: 'Jelly bean'
-                },
-                {
-                    value: false,
-                    instance: 'Lollipop'
-                },
-                {
-                    value: false,
-                    instance: 'Honeycomb'
-                },
-                {
-                    value: false,
-                    instance: 'Donut'
-                },
-                {
-                    value: false,
-                    instance: 'KitKat'
-                }
-            ]
+            instances: []
         };
     },
-    mounted() {
+    created() {
         BUS.session.pageTitle = "Home";
+        BUS.session.currentInstance = null;
         BUS.updateSession();
+
+        // load instance list from database
+        const ax = axios.create({
+            baseURL: "http://localhost:1337/parse/",
+            timeout: 8000,
+            headers: {
+                "X-Parse-Application-Id": "myapp",
+                "X-Parse-Master-Key": "mymasterkey",
+                "Content-Type": "application/json"
+            }
+        });
+
+        ax.get("classes/instance", {
+                params: {
+                    keys: "name,kind_type",
+                    limit: 10000
+                }
+            })
+            .then(response => {
+                // console.log(response.data.results);
+                const newlist = [];
+                for (var i = 0; i < response.data.results.length; i++) {
+                    newlist.push({
+                        "instance": response.data.results[i].name,
+                        "value": false
+                    });
+                }
+                this.instances = newlist;
+            })
+            .catch(function (error) {
+                console.log(error);
+            })
+            .then(function () {
+                // always executed
+            });
     }
 };
 </script>

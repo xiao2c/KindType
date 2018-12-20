@@ -33,6 +33,7 @@ module.exports = {
 		"indent": "off",
 		"space-before-function-paren": "off",
 		"semi": "off",
-		"quotes": "off"
+		"quotes": "off",
+		"padded-blocks": "off"
 	}
 }

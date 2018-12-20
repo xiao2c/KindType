@@ -8,7 +8,7 @@
 
 <script>
 	import HeaderBar from '@/components/HeaderBar'
-	import {BUS, session} from '@/main'
+	import {BUS} from '@/main'
 	
 	export default {
 		name: "App",
@@ -21,8 +21,8 @@
 			}
 		},
 		created () {
-			BUS.$on('updateSession', () => {
-				this.title = session.pageTitle;
+			BUS.$on('sessionChanged', () => {
+				this.title = BUS.session.pageTitle;
 			});
 		}
 	}
