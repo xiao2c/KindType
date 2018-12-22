@@ -8,7 +8,7 @@
         <template slot="items" slot-scope="props">
             <tr :active="props.selected" @click="props.selected = !props.selected">
                 <td>
-                    <v-checkbox primary hide-details v-model="selectedIns" :value="props.item.instance"></v-checkbox>
+                    <input type="checkbox" :ref="`allboxs`+props.item.instance" v-model="selectedIns" :value="props.item.instance" @click="setSelected(props.item.instance, $event)" />
                 </td>
                 <td>{{ props.item.instance }}</td>
             </tr>
@@ -34,8 +34,16 @@ import Router from '@/router/index';
 export default {
     name: "Home",
     methods: {
+        setSelected(instanceName, e) {
+            // console.log("clicked instance: " + instanceName)
+            // console.log(" event : " + JSON.stringify(e.srcElement) + " | " + JSON.stringify(e.target) + " | " + e.target.checked)
+            // if checked is true, set the selectedIns to only this instance. This will clear any other checkbox and make checkboxs single selection.
+            if (e.target.checked) {
+                this.selectedIns = [instanceName];
+            }
+        },
         goNext() {
-            BUS.session.currentInstance = this.selectedIns;
+            BUS.session.currentInstance = this.selectedIns[0];
             Router.push("/SelectCat");
         }
     },
@@ -44,7 +52,7 @@ export default {
             pagination: {
                 sortBy: "instance"
             },
-            selectedIns: "-",
+            selectedIns: [],
             search: "",
             headers: [{
                     text: "Select",
@@ -76,28 +84,25 @@ export default {
         });
 
         ax.get("classes/instance", {
-                params: {
-                    keys: "name,kind_type",
-                    limit: 10000
-                }
-            })
-            .then(response => {
-                // console.log(response.data.results);
-                const newlist = [];
-                for (var i = 0; i < response.data.results.length; i++) {
-                    newlist.push({
-                        "instance": response.data.results[i].name,
-                        "value": false
-                    });
-                }
-                this.instances = newlist;
-            })
-            .catch(function (error) {
-                console.log(error);
-            })
-            .then(function () {
-                // always executed
-            });
+            params: {
+                keys: "name,kind_type",
+                limit: 10000
+            }
+        }).then(response => {
+            // console.log(response.data.results);
+            const newlist = [];
+            for (var i = 0; i < response.data.results.length; i++) {
+                newlist.push({
+                    "instance": response.data.results[i].name,
+                    "value": false
+                });
+            }
+            this.instances = newlist;
+        }).catch(function (error) {
+            console.log(error);
+        }).then(function () {
+            // always executed
+        });
     }
 };
 </script>
