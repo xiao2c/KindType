@@ -34,6 +34,7 @@ module.exports = {
 		"space-before-function-paren": "off",
 		"semi": "off",
 		"quotes": "off",
-		"padded-blocks": "off"
+		"padded-blocks": "off",
+		"new-cap": "off"
 	}
 }

@@ -1652,8 +1652,8 @@
 			"SOCIAL"
 		],
 		"instances": [
-			"\u2018ground_vehicle\u2019",
-			"\u2018air_vehicle\u2019",
+			"ground_vehicle",
+			"air_vehicle",
 			"automobile ",
 			"ship"
 		],

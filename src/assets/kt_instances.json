@@ -1069,7 +1069,7 @@
 	},
 	{
 		"type": "instance",
-		"name": "'vertebrate\u2019",
+		"name": "vertebrate",
 		"kind_type": [
 			"ANIMAL"
 		],
@@ -1279,7 +1279,7 @@
 	},
 	{
 		"type": "instance",
-		"name": "'bird\u2019",
+		"name": "bird",
 		"kind_type": [
 			"VERTEBRATE"
 		],
@@ -1384,7 +1384,7 @@
 	},
 	{
 		"type": "instance",
-		"name": "'fish\u2019",
+		"name": "fish",
 		"kind_type": [
 			"VERTEBRATE"
 		],
@@ -1804,7 +1804,7 @@
 	},
 	{
 		"type": "instance",
-		"name": "'bovine\u2019",
+		"name": "bovine",
 		"kind_type": [
 			"MAMMAL"
 		],
@@ -1909,7 +1909,7 @@
 	},
 	{
 		"type": "instance",
-		"name": "'primate\u2019",
+		"name": "primate",
 		"kind_type": [
 			"MAMMAL"
 		],
@@ -2119,7 +2119,7 @@
 	},
 	{
 		"type": "instance",
-		"name": "'human\u2019",
+		"name": "human",
 		"kind_type": [
 			"PRIMATE"
 		],
@@ -3317,7 +3317,7 @@
 	},
 	{
 		"type": "instance",
-		"name": "'domestic_vertebrate\u2019",
+		"name": "domestic_vertebrate",
 		"kind_type": [
 			"DOMESTIC_ANIMAL"
 		],
@@ -3426,7 +3426,7 @@
 	},
 	{
 		"type": "instance",
-		"name": "'domestic_bird\u2019",
+		"name": "domestic_bird",
 		"kind_type": [
 			"DOMESTIC_VERTEBRATE"
 		],
@@ -3951,7 +3951,7 @@
 	},
 	{
 		"type": "instance",
-		"name": "\u2018ground_vehicle\u2019",
+		"name": "ground_vehicle",
 		"kind_type": [
 			"VEHICLE"
 		],
@@ -4044,7 +4044,7 @@
 	},
 	{
 		"type": "instance",
-		"name": "\u2018air_vehicle\u2019",
+		"name": "air_vehicle",
 		"kind_type": [
 			"VEHICLE"
 		],
@@ -5080,7 +5080,7 @@
 	},
 	{
 		"type": "instance",
-		"name": "'kitchen_tool'",
+		"name": "kitchen_tool",
 		"kind_type": [
 			"MANMADEOBJ"
 		],
@@ -5177,7 +5177,7 @@
 	},
 	{
 		"type": "instance",
-		"name": "'document'",
+		"name": "document",
 		"kind_type": [
 			"MANMADEOBJ"
 		],
@@ -5274,7 +5274,7 @@
 	},
 	{
 		"type": "instance",
-		"name": "'fuel'",
+		"name": "fuel",
 		"kind_type": [
 			"MANMADEOBJ"
 		],
@@ -6795,7 +6795,7 @@
 	},
 	{
 		"type": "instance",
-		"name": "maintenance'",
+		"name": "maintenance",
 		"kind_type": [
 			"SOCIAL_PROCESS"
 		],
@@ -6844,7 +6844,7 @@
 	},
 	{
 		"type": "instance",
-		"name": "transportation'",
+		"name": "transportation",
 		"kind_type": [
 			"SOCIAL_PROCESS"
 		],
@@ -9793,7 +9793,7 @@
 	},
 	{
 		"type": "instance",
-		"name": "'company'",
+		"name": "company",
 		"kind_type": [
 			"INSTITUTION"
 		],
