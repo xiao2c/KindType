@@ -7,6 +7,7 @@
     <v-spacer></v-spacer>
 
     <span>{{info}}</span>
+	<v-btn to="/SelectKT" v-if="showKtButton">Show Kind Types</v-btn>
 </v-toolbar>
 </template>
 
@@ -27,13 +28,15 @@ export default {
         return {
             title: 'this is headerbar',
             barHeader: '',
-            info: ''
+			info: '',
+			showKtButton: false
         }
     },
     created() {
         BUS.$on('sessionChanged', () => {
             this.barHeader = BUS.session.pageTitle;
-            this.info = BUS.session.barInfo;
+			this.info = BUS.session.barInfo;
+			this.showKtButton = BUS.session.barKtButton;
         });
     }
 }
