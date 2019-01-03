@@ -20,6 +20,7 @@
 						<div class="cat-set">
 							<span v-if="catset.parent !== ''">
 								<v-icon @click="upClicked(catset.parent)">arrow_drop_up</v-icon>
+
 								<span class="parent-text">{{ catset.parent }}</span>
 							</span>
 							<br>
@@ -299,12 +300,9 @@ export default {
 			return null;
 		},
 		checkKindType(selectedList) {
-			console.log(
-				"called checkkindtype: list = " + JSON.stringify(selectedList)
-			);
+			// console.log("called checkkindtype: list = " + JSON.stringify(selectedList));
 
-			BUS.session.barInfo =
-				"Selected Categorie(s): " + this.selectedCats.join(", ");
+			BUS.session.categories = this.selectedCats;
 			BUS.session.barKtButton = false;
 			BUS.updateSession();
 
@@ -324,10 +322,7 @@ export default {
 							JSON.stringify(results)
 					);
 					this.kindtypelist = results;
-					BUS.session.barInfo =
-						"Selected Categorie(s): " +
-						this.selectedCats.join(", ") +
-						". Terminal Cut Reached";
+					BUS.session.categories = this.selectedCats;
 					BUS.session.barKtButton = true;
 					BUS.session.currentKindTypes = results;
 					BUS.updateSession();

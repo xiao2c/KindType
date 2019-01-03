@@ -4,7 +4,7 @@
 			<v-spacer></v-spacer>
 			<v-text-field v-model="search" append-icon="search" label="Search" single-line hide-details></v-text-field>
 		</v-card-title>
-		<v-data-table :headers="headers" :items="instances" :search="search">
+		<v-data-table :headers="headers" :items="instances" :search="search" id="mytable">
 			<template slot="items" slot-scope="props">
 				<tr :active="props.selected" @click="props.selected = !props.selected">
 					<td>
@@ -81,7 +81,7 @@ export default {
 	created() {
 		BUS.session.pageTitle = "Home";
 		BUS.session.currentInstance = null;
-		BUS.session.barInfo = "";
+		BUS.session.categories = [];
 		BUS.updateSession();
 
 		// load instance list from database

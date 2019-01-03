@@ -34,9 +34,9 @@
 		<v-toolbar dense>
 			<span v-if="selectedKindType.length > 0">Selected KindType: {{ selectedKindType[0] }}</span>
 			<v-spacer></v-spacer>
-			<v-btn>Attach To KindType</v-btn>
-			<v-btn>Create New KindType</v-btn>
-			<v-btn>Back to Categories</v-btn>
+			<v-btn dark color="blue">Attach To KindType</v-btn>
+			<v-btn dark color="blue">Create New KindType</v-btn>
+			<v-btn dark color="blue">Back to Categories</v-btn>
 		</v-toolbar>
 	</div>
 </template>
