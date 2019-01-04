@@ -35,6 +35,6 @@ module.exports = {
     "padded-blocks": "off",
     "new-cap": "off",
     "eol-last": "off",
-    "function-paren-newline": ["error", { minItems: 8 }]
+    "function-paren-newline": "off"
   }
 };

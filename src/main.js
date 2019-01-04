@@ -6,9 +6,11 @@ import router from "./router";
 import Vuetify from "vuetify";
 import "vuetify/dist/vuetify.min.css"; // Ensure you are using css-loader
 import vueHeadful from "vue-headful";
+import Toasted from "vue-toasted";
 
 Vue.component("vue-headful", vueHeadful); // Register it as vue-headful globally, so it can be used in any view
 Vue.use(Vuetify);
+Vue.use(Toasted);
 Vue.config.productionTip = false;
 
 // must before the main Vue(). Shared object to register event handler: http://andreybleme.com/2018-01-07/sharing-data-across-vuejs-components/

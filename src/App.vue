@@ -2,7 +2,9 @@
 	<v-app id="app">
 		<vue-headful :title="title"/>
 		<HeaderBar/>
-		<router-view/>
+		<keep-alive>
+			<router-view/>
+		</keep-alive>
 	</v-app>
 </template>
 

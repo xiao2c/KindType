@@ -339,9 +339,6 @@ export default {
 		};
 	},
 	created() {
-		BUS.session.ui.pageTitle = "Instance: " + BUS.session.data.instance;
-		BUS.updateSession();
-
 		// Get the default start category ENTITY
 		ax.get("classes/category", {
 			params: {

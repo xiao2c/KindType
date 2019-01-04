@@ -32,11 +32,16 @@
 			</template>
 		</v-list>
 		<v-toolbar dense>
-			<span v-if="selectedKindType.length > 0">Selected KindType: {{ selectedKindType[0] }}</span>
+			<v-btn
+				v-if="selectedKindType.length > 0"
+				dark
+				color="blue"
+				@click="attachInstance()"
+			>Attach To KindType</v-btn>
+			<span v-if="selectedKindType.length > 0">: {{ selectedKindType[0] }}</span>
 			<v-spacer></v-spacer>
-			<v-btn dark color="blue">Attach To KindType</v-btn>
 			<v-btn dark color="blue">Create New KindType</v-btn>
-			<v-btn dark color="blue">Back to Categories</v-btn>
+			<v-btn dark color="blue" to="/SelectCat">Back to Categories</v-btn>
 		</v-toolbar>
 	</div>
 </template>
@@ -44,6 +49,7 @@
 <script>
 import { BUS } from "@/main";
 import axios from "axios";
+import Parse from "parse";
 
 const ax = axios.create({
 	baseURL: "http://localhost:1337/parse/",
@@ -152,6 +158,30 @@ export default {
 				}
 			}
 			return "";
+		},
+		attachInstance() {
+			// get features
+			// let objList = JSON.parse(
+			// 	JSON.stringify(BUS.session.data.instanceCatObjs)
+			// );
+
+			let instance = BUS.session.data.instance;
+
+			// update both kt and instance
+			let ktOld = this.getKtByName(this.selectedKindType[0]);
+			ktOld.instances.push(instance);
+
+			var KTObj = Parse.Object.extend("kindtype");
+			let ktObj = new KTObj();
+			ktObj.set("objectId", ktOld.objectId);
+			ktObj.set("instances", ktOld.instances);
+			ktObj.save().then(() => {
+				this.$toasted.show("Instance Updated!", {
+					theme: "bubble",
+					position: "top-center",
+					duration: 1000
+				});
+			});
 		}
 	},
 	data() {

@@ -34,7 +34,7 @@
 								<tr :key="i">
 									<td>{{ f.feature_name }}</td>
 									<td>
-										<input type="text" v-model="f.value">
+										<v-text-field v-model="f.value"></v-text-field>
 									</td>
 									<td>{{ f.explain }}</td>
 								</tr>

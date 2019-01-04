@@ -17,6 +17,7 @@
     "vue": "^2.5.2",
     "vue-headful": "^2.0.1",
     "vue-router": "^3.0.1",
+    "vue-toasted": "^1.1.26",
     "vuetify": "^1.4.0"
   },
   "devDependencies": {

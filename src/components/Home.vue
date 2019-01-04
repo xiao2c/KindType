@@ -29,7 +29,7 @@
 		<v-toolbar dense>
 			<v-spacer></v-spacer>
 			<span class="highlight">{{ selectedIns.length>0?selectedIns[0]:"" }}</span>
-			<v-btn icon @click="goNext">
+			<v-btn v-if="selectedIns.length>0" icon @click="goNext">
 				<v-icon>send</v-icon>
 			</v-btn>
 		</v-toolbar>
@@ -79,7 +79,6 @@ export default {
 		};
 	},
 	created() {
-		BUS.session.ui.pageTitle = "Home";
 		BUS.session.data.instance = null;
 		BUS.session.data.categories = [];
 		BUS.updateSession();
