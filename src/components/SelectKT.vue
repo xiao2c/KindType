@@ -162,10 +162,8 @@ export default {
 		};
 	},
 	created() {
-		BUS.session.barKtButton = false;
-		this.kindtypelist = JSON.parse(
-			JSON.stringify(BUS.session.currentKindTypes)
-		); // Not sure why
+		BUS.session.ui.barKtButton = false;
+		this.kindtypelist = JSON.parse(JSON.stringify(BUS.session.ui.topKindTypes)); // Not sure why
 		BUS.updateSession();
 
 		// load allSubKts

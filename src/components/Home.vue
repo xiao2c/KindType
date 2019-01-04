@@ -53,7 +53,7 @@ export default {
 			}
 		},
 		goNext() {
-			BUS.session.currentInstance = this.selectedIns[0];
+			BUS.session.data.instance = this.selectedIns[0];
 			Router.push("/SelectCat");
 		}
 	},
@@ -79,9 +79,9 @@ export default {
 		};
 	},
 	created() {
-		BUS.session.pageTitle = "Home";
-		BUS.session.currentInstance = null;
-		BUS.session.categories = [];
+		BUS.session.ui.pageTitle = "Home";
+		BUS.session.data.instance = null;
+		BUS.session.data.categories = [];
 		BUS.updateSession();
 
 		// load instance list from database

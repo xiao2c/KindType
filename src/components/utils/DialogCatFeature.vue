@@ -3,49 +3,49 @@
 		<v-dialog v-model="dialog" persistent max-width="1280px">
 			<v-card>
 				<v-card-title>
-					<span class="headline">Feature List</span>
+					<span class="title">Feature List</span>
 				</v-card-title>
-				<v-card-text>
-					<v-container grid-list-md>
-						<v-layout wrap>
-							<v-flex xs12 sm6 md4>
-								<v-text-field label="Legal first name*" required></v-text-field>
-							</v-flex>
-							<v-flex xs12 sm6 md4>
-								<v-text-field label="Legal middle name" hint="example of helper text only on focus"></v-text-field>
-							</v-flex>
-							<v-flex xs12 sm6 md4>
-								<v-text-field
-									label="Legal last name*"
-									hint="example of persistent helper text"
-									persistent-hint
-									required
-								></v-text-field>
-							</v-flex>
-							<v-flex xs12>
-								<v-text-field label="Email*" required></v-text-field>
-							</v-flex>
-							<v-flex xs12>
-								<v-text-field label="Password*" type="password" required></v-text-field>
-							</v-flex>
-							<v-flex xs12 sm6>
-								<v-select :items="['0-17', '18-29', '30-54', '54+']" label="Age*" required></v-select>
-							</v-flex>
-							<v-flex xs12 sm6>
-								<v-autocomplete
-									:items="['Skiing', 'Ice hockey', 'Soccer', 'Basketball', 'Hockey', 'Reading', 'Writing', 'Coding', 'Basejump']"
-									label="Interests"
-									multiple
-								></v-autocomplete>
-							</v-flex>
-						</v-layout>
-					</v-container>
-					<small>*indicates required field</small>
+				<v-card-text v-if="initData">
+					<table width="100%" class="mytable">
+						<thead>
+							<tr>
+								<td width="75%" class="myheader body-2">{{ initData.name }}</td>
+								<td width="25%" class="myheader body-2">Example Instance(s)</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>{{ initData.description }}</td>
+								<td>{{ initData.example_instances?initData.example_instances.join(", "):"" }}</td>
+							</tr>
+						</tbody>
+					</table>
+					<br>&nbsp;
+					<table width="100%" class="mytable">
+						<thead>
+							<tr>
+								<td width="33%" class="myheader body-2">Feature</td>
+								<td width="33%" class="myheader body-2">Feature Value</td>
+								<td width="33%" class="myheader body-2">Explanation</td>
+							</tr>
+						</thead>
+						<tbody>
+							<template v-for="(f, i) in initData.feature_types">
+								<tr :key="i">
+									<td>{{ f.feature_name }}</td>
+									<td>
+										<input type="text" v-model="f.value">
+									</td>
+									<td>{{ f.explain }}</td>
+								</tr>
+							</template>
+						</tbody>
+					</table>
 				</v-card-text>
 				<v-card-actions>
 					<v-spacer></v-spacer>
 					<v-btn color="blue darken-1" flat @click="close">Close</v-btn>
-					<v-btn color="blue darken-1" flat @click="dialog = false">Save</v-btn>
+					<v-btn color="blue darken-1" flat @click="save">Save</v-btn>
 				</v-card-actions>
 			</v-card>
 		</v-dialog>
@@ -53,6 +53,9 @@
 </template>
 
 <script>
+import { BUS } from "@/main";
+// import Parse from "parse";
+
 export default {
 	props: {
 		dialog: {
@@ -61,8 +64,42 @@ export default {
 	},
 	methods: {
 		close() {
-			this.$emit("closeCatFeature", { name: "my name" });
+			this.$emit("closeCatFeature", { name: "dummy" });
+		},
+		save() {
+			this.$emit("saveCatFeature", this.initData);
 		}
+	},
+	data() {
+		return { initData: null };
+	},
+	created() {
+		console.log(" dialog data: " + JSON.stringify(this.initData));
+		BUS.$on("sessionChanged", () => {
+			if (BUS.session.ui.catDialogData) {
+				this.initData = JSON.parse(
+					JSON.stringify(BUS.session.ui.catDialogData)
+				);
+			}
+		});
 	}
 };
 </script>
+
+<style scoped>
+table.mytable {
+	border-collapse: collapse;
+}
+td.myheader {
+	border: 1px solid grey;
+	background-color: #eeeeee;
+	text-align: left;
+	padding: 8px;
+}
+td {
+	border: 1px solid grey;
+	background-color: white;
+	text-align: left;
+	padding: 8px;
+}
+</style>

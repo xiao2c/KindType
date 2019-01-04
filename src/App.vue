@@ -22,7 +22,7 @@ export default {
 	},
 	created() {
 		BUS.$on("sessionChanged", () => {
-			this.title = BUS.session.pageTitle;
+			this.title = BUS.session.ui.pageTitle;
 		});
 	}
 };

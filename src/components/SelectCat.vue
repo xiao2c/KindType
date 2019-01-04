@@ -302,8 +302,8 @@ export default {
 		checkKindType(selectedList) {
 			// console.log("called checkkindtype: list = " + JSON.stringify(selectedList));
 
-			BUS.session.categories = this.selectedCats;
-			BUS.session.barKtButton = false;
+			BUS.session.data.categories = this.selectedCats;
+			BUS.session.ui.barKtButton = false;
 			BUS.updateSession();
 
 			var query1 = new Parse.Query("kindtype");
@@ -322,9 +322,9 @@ export default {
 							JSON.stringify(results)
 					);
 					this.kindtypelist = results;
-					BUS.session.categories = this.selectedCats;
-					BUS.session.barKtButton = true;
-					BUS.session.currentKindTypes = results;
+					BUS.session.data.categories = this.selectedCats;
+					BUS.session.ui.barKtButton = true;
+					BUS.session.ui.topKindTypes = results;
 					BUS.updateSession();
 				}
 			});
@@ -339,7 +339,7 @@ export default {
 		};
 	},
 	created() {
-		BUS.session.pageTitle = "Instance: " + BUS.session.currentInstance;
+		BUS.session.ui.pageTitle = "Instance: " + BUS.session.data.instance;
 		BUS.updateSession();
 
 		// Get the default start category ENTITY
