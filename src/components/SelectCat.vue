@@ -1,39 +1,49 @@
 <template>
-	<v-list two-line>
-		<template v-for="(catset, i) in catsetlist">
-			<v-list-tile :key="i">
-				<v-list-tile-content>
-					<div class="cat-card">
-						<div class="cat-set-middle">
-							<template v-for="(cat, index) in catset.catlist">
-								<v-chip :key="index" label outline color="blue">
-									<input
-										type="checkbox"
-										v-model="selectedCats"
-										:value="cat.name"
-										@change="boxChanged(cat.name, $event, false)"
-									>&nbsp;
-									<span>{{ cat.name }}</span>
-								</v-chip>
-							</template>
-						</div>
-						<div class="cat-set">
-							<span v-if="catset.parent !== ''">
-								<v-icon @click="upClicked(catset.parent)">arrow_drop_up</v-icon>
+	<div>
+		<v-list two-line>
+			<template v-for="(catset, i) in catsetlist">
+				<v-list-tile :key="i">
+					<v-list-tile-content>
+						<div class="cat-card">
+							<div class="cat-set-middle">
+								<template v-for="(cat, index) in catset.catlist">
+									<v-chip :key="index" label outline color="green">
+										<input
+											type="checkbox"
+											v-model="selectedCats"
+											:value="cat.name"
+											@change="boxChanged(cat.name, $event, false)"
+										>&nbsp;
+										<span>{{ cat.name }}</span>
+									</v-chip>
+								</template>
+							</div>
+							<div class="cat-set">
+								<span v-if="catset.parent !== ''">
+									<v-icon @click="upClicked(catset.parent)">arrow_drop_up</v-icon>
 
-								<span class="parent-text">{{ catset.parent }}</span>
-							</span>
-							<br>
-							<span v-if="checkDownArraw(catset)">
-								<v-icon @click="downClicked(catset)">arrow_drop_down</v-icon>
-							</span>&nbsp;
+									<span class="parent-text">{{ catset.parent }}</span>
+								</span>
+								<br>
+								<span v-if="checkDownArraw(catset)">
+									<v-icon @click="downClicked(catset)">arrow_drop_down</v-icon>
+								</span>&nbsp;
+							</div>
 						</div>
-					</div>
-				</v-list-tile-content>
-			</v-list-tile>
-			<v-divider v-if="i + 1 < catsetlist.length" :key="`divider-${i}`"></v-divider>
-		</template>
-	</v-list>
+					</v-list-tile-content>
+				</v-list-tile>
+				<v-divider v-if="i + 1 < catsetlist.length" :key="`divider-${i}`"></v-divider>
+			</template>
+		</v-list>
+		<v-toolbar dense>
+			<v-btn
+				v-if="kindtypelist && kindtypelist.length > 0"
+				dark
+				color="blue"
+				to="/SelectKT"
+			>Show KindTypes</v-btn>
+		</v-toolbar>
+	</div>
 </template>
 
 <script>
@@ -303,8 +313,9 @@ export default {
 			// console.log("called checkkindtype: list = " + JSON.stringify(selectedList));
 
 			BUS.session.data.categories = this.selectedCats;
-			BUS.session.ui.barKtButton = false;
 			BUS.updateSession();
+
+			this.kindtypelist = [];
 
 			var query1 = new Parse.Query("kindtype");
 			query1.containsAll("parents", selectedList);
@@ -315,15 +326,8 @@ export default {
 			query.find().then(results => {
 				// console.log(" Parse SDK test: " + JSON.stringify(results));
 				if (results !== null && results.length > 0) {
-					console.log(
-						" check kindtype find " +
-							results.length +
-							" kindtypes. " +
-							JSON.stringify(results)
-					);
 					this.kindtypelist = results;
 					BUS.session.data.categories = this.selectedCats;
-					BUS.session.ui.barKtButton = true;
 					BUS.session.ui.topKindTypes = results;
 					BUS.updateSession();
 				}

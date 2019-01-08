@@ -3,20 +3,20 @@
 		<v-dialog v-model="dialog" persistent max-width="1280px">
 			<v-card>
 				<v-card-title>
-					<span class="title">Category Feature List</span>
+					<span class="title">KindType Feature List</span>
 				</v-card-title>
 				<v-card-text v-if="initData">
 					<table width="100%" class="mytable">
 						<thead>
 							<tr>
 								<td width="75%" class="myheader body-2">{{ initData.name }}</td>
-								<td width="25%" class="myheader body-2">Example Instance(s)</td>
+								<td width="25%" class="myheader body-2">Instance(s)</td>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<td>{{ initData.description }}</td>
-								<td>{{ initData.example_instances?initData.example_instances.join(", "):"" }}</td>
+								<td>{{ initData.instances?initData.instances.join(", "):"" }}</td>
 							</tr>
 						</tbody>
 					</table>
@@ -73,21 +73,19 @@ export default {
 			this.$forceUpdate();
 		},
 		close() {
-			this.$emit("closeCatFeature", { name: "dummy" });
+			this.$emit("closeKtFeature", { name: "dummy" });
 		},
 		save() {
-			if (this.initData.feature_types) {
-				// remove any empty value (added, but not filled)
-				for (let i = 0; i < this.initData.feature_types.length; i++) {
-					let values = this.initData.feature_types[i].values;
-					for (let j = values.length - 1; j >= 0; --j) {
-						if (values[j].value === "") {
-							values.splice(j, 1);
-						}
+			// remove any empty value (added, but not filled)
+			for (let i = 0; i < this.initData.feature_types.length; i++) {
+				let values = this.initData.feature_types[i].values;
+				for (let j = values.length - 1; j >= 0; --j) {
+					if (values[j].value === "") {
+						values.splice(j, 1);
 					}
 				}
 			}
-			this.$emit("saveCatFeature", this.initData);
+			this.$emit("saveKtFeature", this.initData);
 		}
 	},
 	data() {
@@ -96,10 +94,8 @@ export default {
 	created() {
 		console.log(" dialog data: " + JSON.stringify(this.initData));
 		BUS.$on("sessionChanged", () => {
-			if (BUS.session.ui.catDialogData) {
-				this.initData = JSON.parse(
-					JSON.stringify(BUS.session.ui.catDialogData)
-				);
+			if (BUS.session.ui.ktDialogData) {
+				this.initData = JSON.parse(JSON.stringify(BUS.session.ui.ktDialogData));
 				if (this.initData.feature_types) {
 					for (let i = 0; i < this.initData.feature_types.length; i++) {
 						if (!this.initData.feature_types[i].values) {

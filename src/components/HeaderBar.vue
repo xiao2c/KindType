@@ -1,23 +1,35 @@
 <template>
 	<div>
-		<v-toolbar dense>
+		<v-toolbar>
 			<v-icon @click="toHome">home</v-icon>
 			<v-toolbar-title>{{barHeader}}</v-toolbar-title>
 			<v-spacer></v-spacer>
-			<span class="cat-array">Selected Categorie(s):</span>
+			<span v-if="categories && categories.length>0" class="cat-array">Categories:</span>
 			<span>
 				<template v-for="(cat, i) in categories">
-					<v-chip :key="i" color="light-green lighten-3" @click="showCatDetail(cat)">
+					<v-chip small :key="i" color="light-green lighten-3" @click="showCatDetail(cat)">
 						<span style="cursor:pointer">{{ cat }}</span>
 					</v-chip>
 				</template>
 			</span>
-			<v-btn dark color="blue" to="/SelectKT" v-if="showKtButton">Show Kind Types</v-btn>
+			<span v-if="kindtypes && kindtypes.length>0" class="cat-array">Kindtypes:</span>
+			<span>
+				<template v-for="(kt, i) in kindtypes">
+					<v-chip small :key="i" color="light-blue lighten-3" @click="showKtDetail(kt)">
+						<span style="cursor:pointer">{{ kt.name }}</span>
+					</v-chip>
+				</template>
+			</span>
 		</v-toolbar>
 		<DialogCatFeature
 			:dialog.sync="dialogCatVisible"
 			@closeCatFeature="closeCatDetail"
 			@saveCatFeature="saveCatDetail"
+		/>
+		<DialogKtFeature
+			:dialog.sync="dialogKtVisible"
+			@closeKtFeature="closeKtDetail"
+			@saveKtFeature="saveKtDetail"
 		/>
 	</div>
 </template>
@@ -27,15 +39,39 @@ import { BUS } from "@/main";
 import Router from "@/router/index";
 import Parse from "parse";
 import DialogCatFeature from "@/components/utils/DialogCatFeature.vue";
+import DialogKtFeature from "@/components/utils/DialogKtFeature.vue";
 
 export default {
 	name: "HeaderBar",
 	components: {
-		DialogCatFeature
+		DialogCatFeature,
+		DialogKtFeature
 	},
 	methods: {
 		toHome() {
 			Router.push("/");
+		},
+		showKtDetail(ktObj) {
+			BUS.session.ui.ktDialogData = ktObj;
+			BUS.updateSession();
+			this.dialogKtVisible = true;
+		},
+		closeKtDetail(data) {
+			this.dialogKtVisible = false;
+		},
+		saveKtDetail(data) {
+			this.dialogKtVisible = false;
+
+			// replace old kindtype data with the new modified kindtype data
+			let objList = JSON.parse(JSON.stringify(BUS.session.data.instanceKtObjs));
+			for (let i = 0; i < objList.length; i++) {
+				if (objList[i].name === data.name) {
+					objList.splice(i, 1, data);
+					break;
+				}
+			}
+			BUS.session.data.instanceKtObjs = objList;
+			this.kindtypes = objList;
 		},
 		showCatDetail(cat) {
 			// check if category data already in the BUS
@@ -91,16 +127,17 @@ export default {
 		return {
 			title: "this is headerbar",
 			barHeader: "",
-			categories: [],
-			showKtButton: false,
-			dialogCatVisible: false
+			categories: [], // Array of String - category names for chips to be displayed
+			kindtypes: [], // Array of Kindtype object - kindtype objects for chips to be displayed
+			dialogCatVisible: false,
+			dialogKtVisible: false
 		};
 	},
 	created() {
 		BUS.$on("sessionChanged", () => {
 			this.barHeader = BUS.session.ui.pageTitle;
 			this.categories = BUS.session.data.categories;
-			this.showKtButton = BUS.session.ui.barKtButton;
+			this.kindtypes = BUS.session.data.instanceKtObjs;
 
 			// sync cat object list with categories names, only remove, do not add
 			let objList = JSON.parse(

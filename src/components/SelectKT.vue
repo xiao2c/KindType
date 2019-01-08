@@ -41,7 +41,7 @@
 			<span v-if="selectedKindType.length > 0">: {{ selectedKindType[0] }}</span>
 			<v-spacer></v-spacer>
 			<v-btn dark color="blue">Create New KindType</v-btn>
-			<v-btn dark color="blue" to="/SelectCat">Back to Categories</v-btn>
+			<v-btn dark color="blue" @click="backToCat()">Back to Categories</v-btn>
 		</v-toolbar>
 	</div>
 </template>
@@ -50,6 +50,7 @@
 import { BUS } from "@/main";
 import axios from "axios";
 import Parse from "parse";
+import Router from "@/router/index";
 
 const ax = axios.create({
 	baseURL: "http://localhost:1337/parse/",
@@ -64,9 +65,34 @@ const ax = axios.create({
 export default {
 	name: "SelectKT",
 	methods: {
+		backToCat() {
+			this.selectedParentKT = [];
+			this.selectedKindType = [];
+			BUS.session.data.instanceKtObjs = [];
+			BUS.updateSession();
+
+			Router.push("/SelectCat");
+		},
 		setSelected(ktname, e) {
 			if (e.target.checked) {
+				// reset parents list
+				this.selectedParentKT = [];
+
 				this.selectedKindType = [ktname];
+
+				// find all parents kts
+				let kt = this.getKtByName(ktname);
+				let plist = this.getParentKTs(kt);
+				this.selectedParentKT = plist;
+
+				// show parents and this kt in title bar
+				BUS.session.data.instanceKtObjs = this.selectedParentKT.concat([kt]);
+				BUS.updateSession();
+			} else if (!e.target.checked) {
+				// kt unchecked
+				this.selectedParentKT = [];
+				BUS.session.data.instanceKtObjs = [];
+				BUS.updateSession();
 			}
 		},
 		checkDownArraw(kt) {
@@ -125,6 +151,17 @@ export default {
 				}
 			}
 			this.kindtypelist.splice(index + c, 1);
+		},
+		getParentKTs(kt) {
+			let plist = [];
+			let parentname = kt.parentname;
+			while (parentname && parentname !== "") {
+				let parent = this.getKtByName(parentname);
+				plist.push(parent);
+				parentname = parent.parentname;
+			}
+
+			return plist;
 		},
 		appendSubKts(kt, parentname) {
 			kt.parentname = parentname;
@@ -188,11 +225,11 @@ export default {
 		return {
 			kindtypelist: [], // Kindtypes that displayed on the page.
 			selectedKindType: [], // The selected kindtype where this instance should attach to.
+			selectedParentKT: [], // all parent kindtypes of the selected kindtype.
 			allSubKts: [] // All kindtypes and their children kindtypes under current categories.
 		};
 	},
 	created() {
-		BUS.session.ui.barKtButton = false;
 		this.kindtypelist = JSON.parse(JSON.stringify(BUS.session.ui.topKindTypes)); // Not sure why
 		BUS.updateSession();
 

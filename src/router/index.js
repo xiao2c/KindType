@@ -9,38 +9,45 @@ import SelectKT from "@/components/SelectKT";
 Vue.use(Router);
 
 export default new Router({
-  routes: [
-    {
-      path: "/",
-      name: "Home",
-      component: Home,
-      beforeEnter: (to, from, next) => {
-        BUS.session.ui.pageTitle = "Home";
-        BUS.updateSession();
-        console.log("enter home");
-        next();
-      }
-    },
-    {
-      path: "/Test",
-      name: "Test",
-      component: Test
-    },
-    {
-      path: "/SelectCat",
-      name: "SelectCat",
-      component: SelectCat,
-      beforeEnter: (to, from, next) => {
-        BUS.session.ui.pageTitle = "Instance: " + BUS.session.data.instance;
-        BUS.updateSession();
-        console.log("enter cat");
-        next();
-      }
-    },
-    {
-      path: "/SelectKT",
-      name: "SelectKT",
-      component: SelectKT
-    }
-  ]
+	routes: [
+		{
+			path: "/",
+			name: "Home",
+			component: Home,
+			beforeEnter: (to, from, next) => {
+				BUS.clearSession();
+				BUS.session.ui.pageTitle = "Home";
+				BUS.updateSession();
+				console.log("enter home");
+				next();
+			}
+		},
+		{
+			path: "/SelectCat",
+			name: "SelectCat",
+			component: SelectCat,
+			beforeEnter: (to, from, next) => {
+				BUS.session.ui.pageTitle = "Instance: " + BUS.session.data.instance;
+				BUS.updateSession();
+				console.log("enter cat");
+				next();
+			}
+		},
+		{
+			path: "/SelectKT",
+			name: "SelectKT",
+			component: SelectKT,
+			beforeEnter: (to, from, next) => {
+				BUS.session.ui.pageTitle = "Instance: " + BUS.session.data.instance;
+				BUS.updateSession();
+				console.log("enter kt");
+				next();
+			}
+		},
+		{
+			path: "/Test",
+			name: "Test",
+			component: Test
+		}
+	]
 });
