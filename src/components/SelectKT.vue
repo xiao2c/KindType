@@ -216,7 +216,7 @@ export default {
 				this.$toasted.show("Instance Updated!", {
 					theme: "bubble",
 					position: "top-center",
-					duration: 1000
+					duration: 2000
 				});
 			});
 		}
