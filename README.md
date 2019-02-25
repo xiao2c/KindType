@@ -1,6 +1,6 @@
 # ktproject
 
-> Kind Type Project
+User interface to collect user inputs for kind types. This version is not used with Amazon Mechanical Turk.
 
 ## Build Setup
 
